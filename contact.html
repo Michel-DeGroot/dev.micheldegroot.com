@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <script
+      src="https://kit.fontawesome.com/1c6b673aa2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/main.css" />
+
+    <title>Michel de Groot | Contact Me</title>
+  </head>
+  <body>
+    <header class="container">
+      <a href="./index.html" class="header-logo"><img src="images/1542585.png" alt="Portfolio logo"></a>
+      <!-- hamburger button -->
+      <button class="nav-toggle">
+        <svg
+          class="hamburger"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="13"
+        >
+          <g fill="#33323D" fill-rule="evenodd">
+            <path d="M0 0h24v1H0zM0 6h24v1H0zM0 12h24v1H0z" />
+          </g>
+        </svg>
+        <svg
+          class="close"
+          xmlns="http://www.w3.org/2000/svg"
+          width="18"
+          height="19"
+        >
+          <path
+            fill="#33323D"
+            fill-rule="evenodd"
+            d="M17.132.661l.707.707L9.707 9.5l8.132 8.132-.707.707L9 10.207.868 18.34l-.707-.707L8.293 9.5.161 1.368.868.661 9 8.793 17.132.661z"
+          />
+        </svg>
+      </button>
+      <!-- Navigation -->
+      <nav class="navbar-header">
+        <ul class="nav-items nav-items-header">
+          <li class="nav-item nav-item-header">
+            <a href="index.html" class="nav-link nav-link-header">Home</a>
+          </li>
+          <li class="nav-item nav-item-header">
+            <a href="portfolio.html" class="nav-link nav-link-header"
+              >Portfolio</a
+            >
+          </li>
+          <li class="nav-item nav-item-header">
+            <a href="contact.html" class="nav-link nav-link-header active"
+              >Contact Me</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+<!-- Content -->
+    <section class="contact-intro container">
+      <h2 class="contact-title">Get in Touch</h2>
+      <div class="contact-details">
+        <p class="contact-text">
+          I’d love to hear about what you’re working on and how I could help.
+          Please do feel free to check out my online profiles below and
+          get in touch using the form. <br><br>
+          
+          email: michelandre.degroot@gmail.com <br>
+          phone: +31 625088367
+        </p>
+        <div class="social-icons social-icons-contact">
+          <a class="icon" href="https://github.com/Michel-DeGroot" target="_blank"><i class="fab fa-github"></i></a> 
+          <a class="icon" href="https://twitter.com/33rockstreet" target="_blank"><i class="fab fa-twitter"></i></a> 
+          <a class="icon" href="https://www.linkedin.com/in/Michel-DeGroot/" target="_blank"><i class="fab fa-linkedin"></i></a> 
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-form container">
+      <h2 class="contact-form-title">Contact Me</h2>
+      <form action="" novalidate>
+        <div>
+          <label for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Sure, just tell me your name"
+            required
+            aria-required="true"
+          />
+          <span class="error-message error-message-name"></span>
+        </div>
+        <div>
+          <label for="email">Email Address</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="your@email.com"
+            required
+            aria-required="true"
+          />
+          <span class="error-message error-message-email"></span>
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea
+            name="message"
+            id="message"
+            required
+            aria-required="true"
+            placeholder="How can I help?"
+          ></textarea>
+          <span class="error-message error-message-textarea"></span>
+        </div>
+        <button type="submit" class="btn btn-primary btn-primary-form">
+          Send Message
+        </button>
+      </form>
+    </section>
+
+    <footer>
+      <div class="container">
+        <nav class="navbar-footer">
+          <img
+            src="images/Logo-invert.png"
+            alt="Portfolio logo"
+            class="footer-logo"
+          />
+          <ul class="nav-items nav-items-footer">
+            <li class="nav-item nav-item-footer">
+              <a href="#" class="nav-link nav-link-footer">Home</a>
+            </li>
+            <li class="nav-item nav-item-footer">
+              <a href="portfolio.html" class="nav-link nav-link-footer"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-item nav-item-footer">
+              <a href="contact.html" class="nav-link nav-link-footer"
+                >Contact Me</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="social-icons">
+          <a class="icon" href="https://github.com/Michel-DeGroot" target="_blank"><i class="fab fa-github"></i></a> 
+          <a class="icon" href="https://twitter.com/33rockstreet" target="_blank"><i class="fab fa-twitter"></i></a> 
+          <a class="icon" href="https://www.linkedin.com/in/Michel-DeGroot/" target="_blank"><i class="fab fa-linkedin"></i></a> 
+        </div>
+      </div>
+    </footer>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
